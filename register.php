@@ -1,3 +1,7 @@
+<?php
+include 'code-register.php';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,10 +17,10 @@
         <img src="assets/Logo.jpg" alt="" class="logo">
         <h1 class="title">Registrate</h1>
 
-        <form action="">
+        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
             <label for="">Usuario</label>
-            <input type="text" name="name" id="" required>
-            <span class="msg-error"></span>
+            <input type="text" name="username" id="" required>
+            <span class="msg-error"><?php echo $username_err; ?></span>
 
             <label for="">Correo electrónico</label>
             <input type="text" name="email" id="" required>
