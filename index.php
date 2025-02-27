@@ -9,8 +9,8 @@
 <body>
 
 <div class="container-all">
-    <div class="ctn.form">
-        <img src="" alt="" class="logo">
+    <div class="ctn-form">
+        <img src="assets/Logo.jpg" alt="" class="logo">
         <h1 class="title">Iniciar sesión</h1>
 
         <form action="">
@@ -25,7 +25,7 @@
 
         <span class="text-footer">¿Aún no tienes una cuenta? <a href="#">Regístrate</a></span>
     </div>
-    <div class="ctn text">
+    <div class="ctn-text">
         <div class="capa"></div>
         <h1 class="title-description">Bienvenido a Js company</h1>
         <p class="text-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, doloremque.</p>
