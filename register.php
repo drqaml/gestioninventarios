@@ -11,9 +11,13 @@
 <div class="container-all">
     <div class="ctn-form">
         <img src="assets/Logo.jpg" alt="" class="logo">
-        <h1 class="title">Iniciar sesión</h1>
+        <h1 class="title">Registrate</h1>
 
         <form action="">
+            <label for="">Usuario</label>
+            <input type="text" name="name" id="" required>
+            <span class="msg-error"></span>
+
             <label for="">Correo electrónico</label>
             <input type="text" name="email" id="" required>
             <span class="msg-error"></span>
@@ -22,10 +26,10 @@
             <input type="password" name="password" id="" required>
             <span class="msg-error"></span>
 
-            <input type="submit" value="Iniciar sesión">
+            <input type="submit" value="Registrarse">
         </form>
 
-        <span class="text-footer">¿Aún no tienes una cuenta? <a href="/register.php">Regístrate</a></span>
+        <span class="text-footer">¿Ya tienes una cuenta? <a href="/index.php">Iniciar sesión</a></span>
     </div>
     <div class="ctn-text">
         <div class="capa"></div>

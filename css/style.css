@@ -151,6 +151,15 @@ input[type="submit"]:hover
     font-size: 18px;
 }
 
+/* Texto error */
+.msg-error
+{
+    color: red;
+    display: block;
+    margin-top: 10px;
+}
+
+
 /*¨Responsive*/
 
 @media screen and (max-width: 800px)
