@@ -1,3 +1,7 @@
+<?php
+require "code-login.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +21,7 @@
 
             <label for="">Correo electrónico</label>
             <input type="text" name="email" id="" required>
-            <span class="msg-error"></span>
+            <span class="msg-error"><?php echo $email_err; ?></span>
 
             <label for="">Contraseña</label>
             <input type="password" name="password" id="" required>
