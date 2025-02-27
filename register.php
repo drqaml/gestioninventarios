@@ -1,7 +1,7 @@
 <?php
 include 'code-register.php';
-
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,11 +24,11 @@ include 'code-register.php';
 
             <label for="">Correo electrónico</label>
             <input type="text" name="email" id="" required>
-            <span class="msg-error"></span>
+            <span class="msg-error"> <?php echo $email_err?></span>
 
             <label for="">Contraseña</label>
             <input type="password" name="password" id="" required>
-            <span class="msg-error"></span>
+            <span class="msg-error"> <?php echo $password_err?></span>
 
             <input type="submit" value="Registrarse">
         </form>

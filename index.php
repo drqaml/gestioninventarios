@@ -13,7 +13,8 @@
         <img src="assets/Logo.jpg" alt="" class="logo">
         <h1 class="title">Iniciar sesión</h1>
 
-        <form action="">
+        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
+
             <label for="">Correo electrónico</label>
             <input type="text" name="email" id="" required>
             <span class="msg-error"></span>
